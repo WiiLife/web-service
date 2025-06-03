@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+matplotlib = "*"
+client-package-library = {file = "dist\\client_package_library-0.6-py3-none-any.whl"}
+
+[dev-packages]
+setuptools = "*"
+
+[requires]
+python_version = "3.13"

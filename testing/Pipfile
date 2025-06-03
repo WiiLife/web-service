@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+client-package-library = {file = "..\\client_package\\dist\\client_package_library-0.7-py3-none-any.whl"}
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.13"

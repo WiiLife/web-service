@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: client_package_library
+Version: 0.7
+Summary: a client library for a web package
+Author: william
+Author-email: william.ambrosetti@supis.ch
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-python
+Dynamic: summary
